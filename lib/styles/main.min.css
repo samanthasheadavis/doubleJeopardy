@@ -1,0 +1,2 @@
+.container{width:80%;background:gray;margin:50px auto;padding:10px}.question{height:50px;background:rgba(255,255,255,0.5);margin:10px auto}.questionBtn,.guessBtn{background:red;border:1px solid black;cursor:pointer;text-align:center}.questionBtn:hover,.guessBtn:hover{background:black;color:white}.guessBtn{text-align:center}textarea{width:99%}
+/*# sourceMappingURL=main.min.css.map */

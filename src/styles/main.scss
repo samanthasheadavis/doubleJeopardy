@@ -1,0 +1,34 @@
+.container {
+  width: 80%;
+  background: gray;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.question {
+  // width: 600px;
+  height: 50px;
+  background: rgba(white, .5);
+  margin: 10px auto;
+}
+
+.questionBtn {
+  background: red;
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    background: black;
+    color: white;
+  }
+}
+
+.guessBtn {
+  @extend .questionBtn;
+  text-align: center;
+}
+
+textarea {
+  width: 99%;
+}
