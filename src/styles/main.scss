@@ -32,3 +32,17 @@
 textarea {
   width: 99%;
 }
+
+.check {
+  text-align: center;
+  color: green;
+  font-size: 40px;
+  display: none;
+}
+
+.wrong {
+  text-align: center;
+  font-size: 40px;
+  display: none;
+  color: red;
+}
