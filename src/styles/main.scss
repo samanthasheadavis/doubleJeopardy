@@ -31,6 +31,7 @@
 
 textarea {
   width: 99%;
+  display: none;
 }
 
 .check {
@@ -45,4 +46,18 @@ textarea {
   font-size: 40px;
   display: none;
   color: red;
+}
+
+.score {
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.correctCount,
+.totalCount,
+.incorrectCount {
+  text-align: center;
+  margin-top: 10px;
 }
