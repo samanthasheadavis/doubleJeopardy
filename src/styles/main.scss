@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+.submitBtn {
+  @extend .guessBtn;
+}
+
 textarea {
   width: 99%;
   display: none;
