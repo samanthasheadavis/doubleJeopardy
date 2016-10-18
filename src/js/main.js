@@ -3,7 +3,17 @@ var game = {
   qCount: [],
   incorrectCount: [],
   correctCount: [],
-  score: 0
+  score: 0,
+  storage: {
+    set: function() {
+        localStorage.setItem("totalQuestions", JSON.stringify(qCount));
+    },
+    get: function() {
+        var ghosts = localStorage.totalQuestions === undefined ? false : JSON.parse(localStorage.totalQuestions);
+        return totalQuestions;
+    },
+
+  }
 };
 
 
@@ -97,6 +107,7 @@ window.setTimeout(function() {
   getQuestion();
 }, 2000);
 };
+
 // Ajax Call
 function getQuestion() {
     $.ajax({
