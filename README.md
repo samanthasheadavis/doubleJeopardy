@@ -1,5 +1,5 @@
 # To-Do
-#### Week 6 Day 1 Homework
+#### Week 6 Day 2 Homework
 
 Double Jeopardy is a basic Jeopardy Game utilizing a Jeopardy question database. The game shows one random question at a time and allows the user to answer via a text box with a `guess` button.
 
