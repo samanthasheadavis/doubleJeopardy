@@ -12,10 +12,8 @@ var game = {
             var totalQuestions = localStorage.totalQuestions === undefined ? false : JSON.parse(localStorage.totalQuestions);
             return totalQuestions;
         },
-
     }
 };
-
 
 function Question(response) {
     this.info = {
